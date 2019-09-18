@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: myappbe
-        image: chinmaya007/myappbackend
+        image: BUILDTAG
         imagePullPolicy: Always
         ports:
         - containerPort: 80
